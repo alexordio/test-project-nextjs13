@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+aside{
+  width: 200px;
+}

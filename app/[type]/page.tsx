@@ -1,11 +1,11 @@
 import Sidebar from "@/components/sidebar";
 import NotesContainer from "@/components/notesContainer";
 
-export default function Home() {
+export default function Home({params: {type}}: any) {
   return (
     <main className="flex w-full">
       <Sidebar></Sidebar>
-      <NotesContainer></NotesContainer>
+      <NotesContainer type={type}></NotesContainer>
     </main>
   );
 }
